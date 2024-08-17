@@ -14,14 +14,5 @@ public class E82NestedForLoops {
 
         // Use nested loops to iterate through the 2D array and print the pattern
 
-        for (int i = 0; i < pattern.length; i++) {
-            for (int j = 0; j < pattern[i].length; j++) {
-                System.out.print("* ");
-
-            }
-            System.out.println();
-        }
-
     }
-    }
-
+}

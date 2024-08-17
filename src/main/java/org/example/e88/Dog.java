@@ -10,22 +10,5 @@ public class Dog {
     
     // Declare the method 'play()' that prints "Breed can play"
 
-    String breed;
-    String name;
-    String color;
-
-    void bark() {
-        System.out.println(breed + " can bark");
-    }
-
-    void run() {
-        System.out.println(breed + " can run");
-    }
-
-    void play() {
-        System.out.println(breed + " can play");
-    }
 
 }
-
-

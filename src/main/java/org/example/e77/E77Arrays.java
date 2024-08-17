@@ -8,11 +8,5 @@ public class E77Arrays {
         // Use a loop to iterate through the array and find the highest value
 
         // Print the highest value found in the array
-        for (int i = 0; i < numbers.length; i++) {
-            if (i !=0 && i !=1){
-
-                System.out.println(numbers[i]);
-            }
-        }
     }
 }

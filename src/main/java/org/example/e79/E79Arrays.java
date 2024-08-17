@@ -16,23 +16,6 @@ public class E79Arrays {
 
         // Store the sums in the new array
 
-        // Print the values of the new a
-        int [] rowSums = new int[a.length];
-        for (int i = 0; i < a.length; i++) {
-             int sum=0;
-            for (int j = 0; j < a[i].length; j++) {
-                sum += a[i][j];
-
-            }
-            rowSums[i] = sum;
-        }
-        for(int sum: rowSums){
-            System.out.println(sum);
-        }
+        // Print the values of the new array
     }
-
 }
-
-
-
-

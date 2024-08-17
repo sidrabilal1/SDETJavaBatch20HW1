@@ -17,36 +17,6 @@ public class E88ClassAndObject {
 
         // Call the methods 'bark()', 'run()', and 'play()' for each object
 
-        Dog husky = new Dog();
-        husky.breed = "Husky";
-        husky.name = "AnyName";
-        husky.color = "AnyColor";
-
-
-        Dog bulldog = new Dog();
-        bulldog.breed = "Bulldog";
-        bulldog.name = "AnyName";
-        bulldog.color = "AnyColor";
-
-
-        Dog labrador = new Dog();
-        labrador.breed = "Labrador";
-        labrador.name = "AnyName";
-        labrador.color = "AnyColor";
-
-
-        husky.bark();
-        husky.run();
-        husky.play();
-
-        bulldog.bark();
-        bulldog.run();
-        bulldog.play();
-
-
-        labrador.bark();
-        labrador.run();
-        labrador.play();
 
 
     }

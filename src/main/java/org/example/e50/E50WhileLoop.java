@@ -7,11 +7,5 @@ public class E50WhileLoop {
         // Use a while loop to print the sequence of numbers from 7 to 98
         // Inside the loop, print the value of i
         // Increment the value of i by 7
-        int i = 7;
-        while (i <=98 ){
-            System.out.println(i);
-            i=i+7;
-
-        }
     }
 }

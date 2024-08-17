@@ -9,10 +9,5 @@ public class E69Arrays {
 
         // Declare and initialize the array of strings
 
-        String [] names = {"This","is","array","of","strings"};
-
-        for(int i = 0; i< names.length; i++){
-            System.out.print(names[i]+" ");
-        }
     }
 }

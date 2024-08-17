@@ -9,14 +9,5 @@ public class E54DoWhileLoop {
         // Decrement the counter by 1
 
         // Print "Countdown complete!"
-        int counter = 10;
-        do{
-            System.out.println(counter);
-            counter--;
-
-        }while(counter>0);
-
-        System.out.println("Countdown complete!");
     }
-
 }

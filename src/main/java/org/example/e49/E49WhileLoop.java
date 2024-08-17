@@ -7,12 +7,5 @@ public class E49WhileLoop {
         // Use a while loop to repeat order confirmation three times
         // Inside the loop, print "Please confirm your order: Your order number is 12345"
         // Increment the counter by 1
-
-        int counter = 0;
-        while (counter<3){
-            System.out.println("Please confirm your order: Your order number is 12345");
-            counter++;
-
-        }
     }
 }

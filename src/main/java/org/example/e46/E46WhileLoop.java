@@ -8,10 +8,6 @@ public class E46WhileLoop {
         // Inside the loop, print the value of counter
         // Increment the counter by 1
 
-        int counter = 0;
-        while (counter<=8){
-            System.out.println(counter);
-            counter++;
-        }
+
     }
 }

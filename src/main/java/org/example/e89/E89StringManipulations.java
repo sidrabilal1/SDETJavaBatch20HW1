@@ -8,9 +8,5 @@ public class E89StringManipulations {
 
         // Print the length of the string in the specified format
 
-    String name = new String("Timmy");
-        System.out.println(name.length());
-
-
     }
 }

@@ -12,16 +12,5 @@ public class E81Arrays {
         // Use nested loops to iterate through the 2D array and sum the elements that are on even indexes and even rows
 
         // Print the calculated sum
-        int count = 0;
-        for (int i = 0; i < a.length; i++) {
-            for (int j = 0; j < a[i].length; j++) {
-                if (a[i][j] < 0 && a[i][j] % 2 == 0) {
-                    count--;
-
-
-                }
-            }
-        }
-        System.out.println(count);
     }
 }

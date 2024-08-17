@@ -8,12 +8,6 @@ public class E84NestedForLoops {
         // Use nested loops to fill the 2D array with multiplication table values
 
         // Use nested loops to iterate through the 2D array and print the pattern
-        for(int i =6; i< 11; i++){
-            for(int j = 1; j< 11; j++){
-                System.out.print(i*j+" ");
-            }
-            System.out.println();
-        }
 
     }
 }

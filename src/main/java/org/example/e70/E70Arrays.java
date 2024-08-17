@@ -12,11 +12,5 @@ public class E70Arrays {
 
         // Declare and initialize the array of integers with size 11
 
-        int[] numbers= {2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2020};
-
-        for(int i = 0; i< numbers.length; i++){
-            System.out.println(numbers[i]);
-        }
-
     }
 }

@@ -5,9 +5,6 @@ import java.util.Scanner;
 public class E64ForLoop {
     public static void main(String[] args) {
         // Create a Scanner object to read input from the console
-        Scanner input= new Scanner(System.in);
-        System.out.print("Int: ");
-        int n = input.nextInt();
 
 
         // Prompt the user to enter a value for end
@@ -18,9 +15,6 @@ public class E64ForLoop {
 
 
         // Step 1: Create a Scanner object to read input from the console
-         for(int i = 0; i < 2 *n; i++){
-             System.out.print(i+" ");
-         }
 
     }
 }

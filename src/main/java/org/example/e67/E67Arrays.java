@@ -6,16 +6,5 @@ public class E67Arrays {
 
 
         // Use a loop to iterate through the array and print the values at even indices followed by a space
-
-
-        int[] numbers = {45, 78, 12, 67, 55, 89, 23, 77, 88};
-
-        for (int i = 0; i < numbers.length; i = i + 2) {
-            System.out.print(numbers[i]+" ");
-        }
-        System.out.println();
     }
-    }
-
-
-
+}

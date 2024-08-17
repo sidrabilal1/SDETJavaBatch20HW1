@@ -6,10 +6,6 @@ public class Car {
     // Declare an integer variable named 'carYear'
     // Declare a String variable named 'carMake'
 
-    String carColor;
-    int carYear;
-    String  carMake;
-
 
 
 }
