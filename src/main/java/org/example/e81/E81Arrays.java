@@ -9,8 +9,17 @@ public class E81Arrays {
                 {1, -2, 3, -4}
         };
 
-        // Use nested loops to iterate through the 2D array and sum the elements that are on even indexes and even rows
+        int sum = 0;
 
-        // Print the calculated sum
+        // Use nested loops to iterate through the 2D array and sum the elements
+        for (int i = 0; i < a.length; i++) {
+            for (int j = 0; j < a[i].length; j++) {
+                if (i % 2 == 0 && j % 2 == 0) {
+                    sum += a[i][j];
+                }
+            }
+        }
+
+        System.out.println(sum); // Print the calculated sum
     }
 }

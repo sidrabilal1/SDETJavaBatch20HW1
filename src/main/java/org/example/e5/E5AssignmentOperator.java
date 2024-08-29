@@ -2,19 +2,21 @@ package org.example.e5;
 
 public class E5AssignmentOperator {
     public static void main(String[] args) {
-        // Step 1: Declare the String variable and set it to "Chen"
+        // Create a String variable 'name' and assign "Chen" to it
+        String name = "Chen";
 
+        // Create an integer variable 'age' and assign 50 to it
+        int age = 50;
 
-        // Step 2: Declare the integer variable and set it to 50
+        // Create an integer variable 'iq' and assign the value of 'age' to it
+        int iq = age;
 
+        // Print the value of 'name'
+        System.out.println(name);
 
-        // Step 3: Assign the value of age to iq
-
-
-        // Step 4: Print the name
-
-
-        // Step 5: Print the age and iq on the same line
-
+        // Print the value of 'age' and 'iq' on the same line
+        System.out.print(age);
+        System.out.print(iq);
     }
 }
+

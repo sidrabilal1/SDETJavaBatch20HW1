@@ -2,17 +2,11 @@ package org.example.e94;
 
 public class E94StringManipulations {
     public static void main(String[] args) {
-        // Create a String variable named 'given' and assign the value "I love Java classes at Syntax" to it
+        // Create the string variable
         String given = "I love Java classes at Syntax";
 
-        // Use the substring() method to retrieve the substring "classes at Syntax" and print it
-
-        // Use the substring() method to retrieve the substring "I love Java" and print it
-
-        String newstr = given.substring(12);
-        System.out.println(newstr);
-
-        String newstr2 = given.substring(0,11);
-        System.out.println(newstr2);
+        // Retrieve and print the substrings
+        System.out.println(given.substring(12)); // "classes at Syntax"
+        System.out.println(given.substring(0, 11)); // "I love Java"
     }
 }

@@ -1,44 +1,28 @@
 package org.example.e96;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class E96StringManipulations {
     public static void main(String[] args) {
-        // Create a Scanner object to read input from the console
+        // Create a Scanner object
+        Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user to input a programming language
-
-
-        // Read the input string
-
-
-        // Use conditional statements to print the description based on the input
-        // If the input is "Java", print "Java is a programming language"
-        // If the input is "C", print "C is a procedural programming language"
-        // If the input is "C++", print "C++ is a middle-level programming language"
-        // For any other input, print "Doesn't match any programming language"
-
-        Scanner sc = new Scanner(System.in);
+        // Prompt the user for input
         System.out.println("Please enter a programming language:");
+        String language = scanner.nextLine();
 
-        String input = sc.next();
-
-        if (input.equals("Java")) {
-
+        // Use conditional statements to print the description
+        if (language.equalsIgnoreCase("Java")) {
             System.out.println("Java is a programming language");
-
-        } else if(input.equals('C')) {
+        } else if (language.equalsIgnoreCase("C")) {
             System.out.println("C is a procedural programming language");
-
-        } else if (input.equals("C++")) {
+        } else if (language.equalsIgnoreCase("C++")) {
             System.out.println("C++ is a middle-level programming language");
-
         } else {
-
             System.out.println("Doesn't match any programming language");
         }
-    }
 
+        // Close the scanner
+        scanner.close();
     }
-
+}

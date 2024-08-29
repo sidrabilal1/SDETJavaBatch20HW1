@@ -4,33 +4,32 @@ import java.util.Scanner;
 
 public class E97StringManipulations {
     public static void main(String[] args) {
-        // Create a Scanner object to read input from the console
+        // Create a Scanner object
+        Scanner scanner = new Scanner(System.in);
 
-        // Prompt the user to input a browser name
-
-
-        // Read the input string
-
-
-        // Use conditional statements to print the message based on the input
-        // If the input is "Chrome", "chrome", "CHROME", or "ChRoMe", print "Proceed with Chrome browser"
-        // If the input is "firefox", "FIREFOX", or "FireFOX", print "Proceed with Firefox browser"
-        // If the input is "IE", "ie", or "iE", print "Proceed with IE browser"
-        // For any other input, print "Invalid browser"
-
-        Scanner sc = new Scanner(System.in);
+        // Prompt the user for input
         System.out.println("Please enter a browser name:");
-        String input = sc.next();
+        String browser = scanner.nextLine();
 
-        if(input.equals("Chrome")){
+        // Use conditional statements to validate the browser name
+        if (browser.equalsIgnoreCase("Chrome")) {
             System.out.println("Proceed with Chrome browser");
-        }else if(input.equals("firefox")){
+        } else if (browser.equalsIgnoreCase("Firefox")) {
             System.out.println("Proceed with Firefox browser");
-        }else if(input.equals("IE")){
+        } else if (browser.equalsIgnoreCase("IE")) {
             System.out.println("Proceed with IE browser");
-        }else{
+        } else {
             System.out.println("Invalid browser");
         }
 
+        // Close the scanner
+        scanner.close();
     }
 }
+
+
+
+
+
+
+

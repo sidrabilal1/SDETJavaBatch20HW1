@@ -4,20 +4,23 @@ import java.util.Scanner;
 
 public class E100StringManipulations {
     public static void main(String[] args) {
+        // Create a Scanner object
+        Scanner scanner = new Scanner(System.in);
 
-        Scanner sc = new Scanner(System.in);
+        // Prompt the user for input
         System.out.println("In: ");
+        String input = scanner.nextLine();
 
-        String input = sc.nextLine();
-
-        for(int i = input.length()-1; i >=0; i--){
-            char word = input.charAt(i);
-            System.out.print(word);
+        // Reverse the string using a for loop
+        String reversed = "";
+        for (int i = input.length() - 1; i >= 0; i--) {
+            reversed += input.charAt(i);
         }
-        System.out.println();
 
+        // Print the reversed string
+        System.out.println(reversed);
 
-
-
+        // Close the scanner
+        scanner.close();
     }
 }

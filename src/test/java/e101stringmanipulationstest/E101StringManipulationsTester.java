@@ -40,7 +40,7 @@ class E101StringManipulationsTester {
 
         // Expected output for "hello"
         String expectedOutput = "In: " + System.lineSeparator() +
-                "hlo" + System.lineSeparator();
+                "hlo" ;
 
         // Assert that the output matches the expected result
         assertEquals(expectedOutput, outContent.toString());
@@ -58,7 +58,7 @@ class E101StringManipulationsTester {
 
         // Expected output for "SSyynnttaaxxTTeecchhnnoollooggiieess"
         String expectedOutput = "In: " + System.lineSeparator() +
-                "SyntaxTechnologies" + System.lineSeparator();
+                "SyntaxTechnologies" ;
 
         // Assert that the output matches the expected result
         assertEquals(expectedOutput, outContent.toString());

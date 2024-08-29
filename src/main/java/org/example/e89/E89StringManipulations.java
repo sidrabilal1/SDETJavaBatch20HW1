@@ -8,5 +8,12 @@ public class E89StringManipulations {
 
         // Print the length of the string in the specified format
 
+        String name = "Timmy";
+
+        // Use the length() method to find out how many characters are in the string
+        int length = name.length();
+
+        // Print the length of the string
+        System.out.println(length);
     }
 }

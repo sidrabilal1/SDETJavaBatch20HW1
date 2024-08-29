@@ -2,15 +2,13 @@ package org.example.e98;
 
 public class E98StringManipulations {
     public static void main(String[] args) {
-        // Create a String variable named 'given' and assign the value "Hello Syntax friends" to it
+        // Create the string variable
+        String given = "Hello Syntax friends";
 
-        // Manipulate the string to create a new string "Welcome Syntax family"
+        // Manipulate the string to create the new string
+        String newString = given.replace("Hello", "Welcome").replace("friends", "family");
 
-        // Print the new string
-
-    String given = "Hello Syntax friends";
-
-        System.out.println("Welcome "+given.substring(6,12)+" family");
-
+        // Print the result
+        System.out.println(newString);
     }
 }

@@ -1,18 +1,35 @@
 package org.example.e37;
 
+import java.util.Scanner;
+
 public class E37LogicalOperators {
     public static void main(String[] args) {
-        // Create a Scanner object to read input
+        // Step 1: Create a Scanner object
+        Scanner scanner = new Scanner(System.in);
 
-        // Print prompt for user to answer if they are thirsty
-        // Capture the thirsty input
+        // Step 2: Capture boolean inputs
+        System.out.println("Are you thirsty? (true/false)");
+        boolean isThirsty = scanner.nextBoolean();
 
-        // Print prompt for user to answer if they are sleepy
-        // Capture the sleepy input
+        System.out.println("Are you sleepy? (true/false)");
+        boolean isSleepy = scanner.nextBoolean();
 
-        // Determine the drink based on the inputs
+        // Step 3: Determine the drink
+        String drink;
+        if (isThirsty && !isSleepy) {
+            drink = "water";
+        } else if (isThirsty && isSleepy) {
+            drink = "coffee";
+        } else if (!isThirsty && isSleepy) {
+            drink = "tea";
+        } else {
+            drink = "nothing";
+        }
 
-        // Print the drink suggestion
-        // Output: Looks like you need to drink ___
+        // Step 4: Print the drink suggestion
+        System.out.println("Looks like you need to drink " + drink);
+
+        // Close the scanner
+        scanner.close();
     }
 }

@@ -2,12 +2,15 @@ package org.example.e106;
 
 public class E106StringBuilder {
     public static void main(String[] args) {
-        StringBuffer sb = new StringBuffer("Hello");
-        sb.append(" World");
-        String sb2 = sb.toString();
-        System.out.println(sb2.toUpperCase());
+        // Instantiate StringBuffer
+        StringBuffer sb = new StringBuffer();
 
+        // Append values to StringBuffer
+        sb.append("Hello");
+        sb.append(" ");
+        sb.append("World");
 
-
+        // Convert to uppercase and print
+        System.out.println(sb.toString().toUpperCase());
     }
 }

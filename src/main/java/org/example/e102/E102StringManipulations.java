@@ -4,8 +4,7 @@ import java.util.Scanner;
 
 public class E102StringManipulations {
     public static void main(String[] args) {
-
-
+        // Create a Scanner object
         Scanner scanner = new Scanner(System.in);
 
         // Prompt the user for input
@@ -20,6 +19,3 @@ public class E102StringManipulations {
 
     }
 }
-
-
-
