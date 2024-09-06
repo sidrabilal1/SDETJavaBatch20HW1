@@ -9,11 +9,12 @@ public class Dog {
     // Declare the method 'run()' that prints "Breed can run"
     
     // Declare the method 'play()' that prints "Breed can play"
-
+    // Declare variables
     String breed;
     String name;
     String color;
 
+    // Declare methods
     void bark() {
         System.out.println(breed + " can bark");
     }
@@ -27,5 +28,3 @@ public class Dog {
     }
 
 }
-
-

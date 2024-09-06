@@ -2,18 +2,15 @@ package org.example.e16;
 
 public class E16DistanceConversionModulus {
     public static void main(String[] args) {
-        // Declare the int variable and assign a value
+        // Step 1: Create variables
         int totalMeters = 1850;
 
-        // Calculate kilometers and meters
-        int div = totalMeters / 1000;
-        int kiloMeter = div;
-        int mod = totalMeters % 1000;
-        int meters = mod;
+        // Step 2: Calculate kilometers and meters
+        int kilometers = totalMeters / 1000;
+        int meters = totalMeters % 1000;
 
+        // Step 3: Print the results
+        System.out.println(totalMeters + " meters is equal to " + kilometers + " kilometers and " + meters + " meters.");
 
-        // Print the results
-        System.out.println(totalMeters + " meters " + "is equal to " + kiloMeter + " kilometers and " + meters + " meters.");
     }
-
 }

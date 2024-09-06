@@ -4,35 +4,42 @@ import java.util.Scanner;
 
 public class E35LogicalOperators {
     public static void main(String[] args) {
-        // Create a Scanner object to read input
-        Scanner input = new Scanner(System.in);
-        // Print prompt for user to answer if they need a loan
-        System.out.println("Do you need a loan? (true/false)");
-
-        // Capture the loan requirement input
-        boolean needsLoan = input.nextBoolean();
-        // Check if the user needs a loan
-
         // Step 1: Create a Scanner Object
-        if (needsLoan){
-            System.out.println("What is your credit score?");
-            int creditscore = input.nextInt();
-            if ( creditscore < 600){
-                System.out.println("The eligibility is Not eligible");
-            }else if(creditscore >= 600 && creditscore <= 700){
-                System.out.println("The eligibility is Maybe eligible");
-            }else if(creditscore >= 701 && creditscore <= 800){
-                System.out.println("The eligibility is Eligible");
+        Scanner scanner = new Scanner(System.in);
 
-            }else if(creditscore >800){
-                System.out.println("The eligibility is Definitely eligible");
+        // Step 2: Check Loan Requirement
+        System.out.println("Do you need a loan? (true/false)");
+        boolean needsLoan = scanner.nextBoolean();
+
+        String eligibility;
+
+        // Step 3: Check Credit Score if Loan is Needed
+        if (needsLoan) {
+            System.out.println("What is your credit score?");
+            int creditScore = scanner.nextInt();
+
+            // Step 4: Determine Eligibility
+            if (creditScore < 600) {
+                eligibility = "Not eligible";
+            } else if (creditScore >= 600 && creditScore <= 700) {
+                eligibility = "Maybe eligible";
+            } else if (creditScore >= 701 && creditScore <= 800) {
+                eligibility = "Eligible";
+            } else if (creditScore > 800) {
+                eligibility = "Definitely eligible";
+            } else {
+                eligibility = "Unknown";
             }
-        }else{
-            System.out.println("The eligibility is Unknown");
+        } else {
+            eligibility = "Unknown";
         }
 
-
-
-
+        // Step 5: Print Eligibility
+        System.out.println("The eligibility is " + eligibility);
     }
 }
+
+
+
+
+

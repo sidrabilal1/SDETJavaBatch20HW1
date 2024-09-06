@@ -9,11 +9,16 @@ public class E91StringManipulations {
         // Use the toUpperCase() method to convert 'str1' to uppercase and print the result
 
         // Use the toLowerCase() method to convert 'str2' to lowercase and print the result
-
+        // Create string variables and assign values
         String str1 = "syntax technologies";
-        String str2 = "syntax technologies";
+        String str2 = "SYNTAX TECHNOLOGIES";
 
-        System.out.println(str1.toUpperCase());
-        System.out.println(str2.toLowerCase());
+        // Convert the case
+        String str1UpperCase = str1.toUpperCase();
+        String str2LowerCase = str2.toLowerCase();
+
+        // Print the converted values
+        System.out.println(str1UpperCase);
+        System.out.println(str2LowerCase);
     }
 }

@@ -21,22 +21,23 @@ public class E87ClassAndObject {
         // Assign the value "Toyota" to the 'carMake' variable of the second object
 
         // Print the values of the properties for both objects in the specified format
-         Car car = new Car();
-         car.carColor = "Black";
-         car.carYear = 2019;
-         car.carMake = "BMW";
-
-        System.out.println("Car color is " +car.carColor+" and car year is " +car.carYear+ " and car model is "+car.carMake );
 
         Car car1 = new Car();
-        car1.carColor = "White";
-        car1.carYear = 2018;
-        car1.carMake = "Toyota";
+        car1.carColor = "Black";
+        car1.carYear = 2019;
+        car1.carMake = "BMW";
 
-        System.out.println("Car color is "+car1.carColor+" and car year is " +car1.carYear+ " and car model is "+car1.carMake );
+        // Create the second object of the Car class
+        Car car2 = new Car();
+        car2.carColor = "White";
+        car2.carYear = 2018;
+        car2.carMake = "Toyota";
 
+        // Print the properties of the first object
+        System.out.println("Car color is " + car1.carColor + " and car year is " + car1.carYear + " and car model is " + car1.carMake);
 
-
-
+        // Print the properties of the second object
+        System.out.println("Car color is " + car2.carColor + " and car year is " + car2.carYear + " and car model is " + car2.carMake);
     }
 }
+

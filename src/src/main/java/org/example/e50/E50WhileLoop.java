@@ -8,10 +8,10 @@ public class E50WhileLoop {
         // Inside the loop, print the value of i
         // Increment the value of i by 7
         int i = 7;
-        while (i <=98 ){
-            System.out.println(i);
-            i=i+7;
 
+        while (i <= 98) {
+            System.out.println(i);
+            i += 7;
         }
     }
 }

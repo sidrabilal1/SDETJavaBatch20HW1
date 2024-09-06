@@ -10,13 +10,12 @@ public class E54DoWhileLoop {
 
         // Print "Countdown complete!"
         int counter = 10;
-        do{
+
+        do {
             System.out.println(counter);
             counter--;
-
-        }while(counter>0);
+        } while (counter > 0);
 
         System.out.println("Countdown complete!");
     }
-
 }

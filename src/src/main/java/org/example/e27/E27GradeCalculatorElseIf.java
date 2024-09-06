@@ -2,27 +2,31 @@ package org.example.e27;
 
 public class E27GradeCalculatorElseIf {
     public static void main(String[] args) {
-        // Hint: Declare 'score' as an int and assign 85 to it
-            int score= 85;
-        // Hint: Use if-else if statements to check grades A, B, C, D, F in order
+        // Step 1: Declare a variable `score` and assign an integer value between 0 and 100
+        int score = 85; // Example score, you can change this value to test different cases
 
-         if(score>=90){
-            System.out.println("Your grade is: A");
+        // Step 2: Calculate the grade using if-else if statements
+        String grade;
 
-        } else if(score>=80){
-                System.out.println("Your grade is: B");
-
-            }else if( score>=70){
-            System.out.println("your grade is: C");
-
-        }else if(score>=60){
-            System.out.println("Your grade is: D");
-
-        }else if(score>=50){
-            System.out.println("Your grade is: F");
+        if (score >= 90 && score <= 100) {
+            grade = "A";
+        } else if (score >= 80 && score < 90) {
+            grade = "B";
+        } else if (score >= 70 && score < 80) {
+            grade = "C";
+        } else if (score >= 60 && score < 70) {
+            grade = "D";
+        } else if (score >= 0 && score < 60) {
+            grade = "F";
+        } else {
+            grade = "Invalid"; // In case the score is out of range
         }
-        // Hint: Print the grade using System.out.println()
 
-        // Expected output: "Your grade is: B"
+        // Print the letter grade
+        if (!grade.equals("Invalid")) {
+            System.out.println("Your grade is: " + grade);
+        } else {
+            System.out.println("Invalid score entered.");
+        }
     }
 }

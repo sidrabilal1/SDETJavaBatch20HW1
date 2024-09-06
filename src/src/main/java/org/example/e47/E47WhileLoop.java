@@ -9,10 +9,8 @@ public class E47WhileLoop {
         // Decrement the counter by 1
         int counter = 15;
 
-        while(counter >= 0){
+        while (counter >= 0) {
             System.out.println(counter);
             counter--;
-        }
-
     }
-}
+}}

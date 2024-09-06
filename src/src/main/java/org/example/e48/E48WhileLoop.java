@@ -8,14 +8,13 @@ public class E48WhileLoop {
         // Inside the loop, use an if statement to check if counter is even
         // If counter is even, print the value of counter
         // Increment the counter by 1
-
         int counter = 1;
-        while (counter<=13){
-            if(counter%2==0)
-            System.out.println(counter );
+
+        while (counter <= 13) {
+            if (counter % 2 == 0) {
+                System.out.println(counter);
+            }
             counter++;
-
-
         }
     }
 }

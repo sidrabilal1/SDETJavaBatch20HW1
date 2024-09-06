@@ -1,18 +1,15 @@
 package org.example.e20;
 
-import org.example.e27.E27GradeCalculatorElseIf;
-
 public class E20EvenOrOddNumberIfConditions {
     public static void main(String[] args) {
-        // Declare an integer variable and assign a value
-         int numb = 10;
-        // int number = 10;
+        // Step 1: Declare an integer variable called `number` and assign the value 10
+        int number = 10;
 
-          if(numb>0) {
+        // Step 2: Check if the number is even or odd using if-else condition
+        if (number % 2 == 0) {
             System.out.println("The number is even.");
-
-        }else {
-              System.out.println("The number is odd.");
-          }
+        } else {
+            System.out.println("The number is odd.");
+        }
     }
 }

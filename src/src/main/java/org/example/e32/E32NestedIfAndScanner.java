@@ -4,33 +4,34 @@ import java.util.Scanner;
 
 public class E32NestedIfAndScanner {
     public static void main(String[] args) {
-        // Create a Scanner object to read input
-        Scanner input = new Scanner(System.in);
-        // Print prompt for user to enter gender
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("Please enter your gender: M or F");
-        // Capture the gender input
-        char gender = input.next().charAt(0);
+        String gender = scanner.nextLine().toUpperCase();
 
-        // Print prompt for user to enter age
         System.out.println("Please enter your age");
-        // Capture the age input
-        int age = input.nextInt();
-
+        int age = scanner.nextInt();
 
         if (age > 25) {
-            if (gender == 'F') {
+            if (gender.equals("F")) {
                 System.out.println("Woman");
-            }else {
+            } else {
                 System.out.println("Man");
             }
-        }
-
-            else if (gender == 'F') {
+        } else {
+            if (gender.equals("F")) {
                 System.out.println("Girl");
-
-            }else {
+            } else {
                 System.out.println("Boy");
             }
         }
     }
+}
+
+
+
+
+
+
+
 
